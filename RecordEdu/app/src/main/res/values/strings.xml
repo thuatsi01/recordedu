@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RecordEdu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="desc"></string>
+	<string name="time">00:00</string>
+    <string name="no_echolist">No EchoList</string>
+    <string name="defauft_name_echo">Please Name Echo!</string>
+    <string name="message_no_echolist">No EchoList. Please add one!</string>
+    <string name="title_new_echolist">New EchoList</string>
+    <string name="message_new_echolist">Please name new EchoList!</string>
+    <string name="message_echoname_null">Please name Echo!</string>
+    <string name="message_exist_echoname">Name already exists. Please choose a different name!</string>
+    <string name="alertview_ok_button_title">OK</string>
+    <string name="alertview_cancle_button_title">Cancle</string>
+    <string name="message_notexisted_record">No Echo was recorded. Please record one!</string>
+    <string name="change_done">DONE</string>
+    <string name="save_file">Save File</string>
+    <string name="no_echo">No Echo In List!</string>
+    <string name="chose_edit">Choose Item Edit</string>
+    <string name="chose_play_list">Please Choose Play Lists</string>
+    <string name="chose_echo">Please choose an Echo!</string>
+    <string name="is_edit">Please click the DONE button to finish editing.</string>
+    <string name="delete_file">Do you want to delete this Echo?</string>
+    <string name="choose_delete">Do you want delete file?</string>
+    <string name="file_exsist">Name already exists. Please choose a different name!</string>
+    <string name="waiting">Wating For Minute!</string>
+    <string name="no_rename">No File To Rename!</string>
+    <string name="rate_1">1</string>
+    <string name="rate_2">2</string>
+    <string name="rate_3">3</string>
+    <string name="rate_4">4</string>
+    <string name="rate_5">5</string>
+</resources>

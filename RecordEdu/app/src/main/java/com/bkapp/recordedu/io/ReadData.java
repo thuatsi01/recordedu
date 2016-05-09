@@ -15,7 +15,6 @@ import com.bkapp.recordedu.json.JSONArrayRemove;
 public class ReadData {
 
 	// public final String URL_FILE_DATA =
-	// "/data/data/com.tranle.echoedu/dataEcho.txt";
 	public final String URL_FILE_JSON = "/JSON/";//
 	public final String URL_FILE_DATA = "/dataEcho.txt";
 	public final String URL_FILE_ECHO_LIST = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/EchoList/";

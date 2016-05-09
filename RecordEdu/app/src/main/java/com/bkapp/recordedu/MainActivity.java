@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
         widthScreen = displaymetrics.widthPixels / 2;
         // ------------------------------------------------------------
         mIVLogo = (ImageView) findViewById(R.id.logo);
-        animationZoomIn = AnimationUtils.loadAnimation(getApplicationContext(), R.animator.zoomin);
+        animationZoomIn = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoomin);
         animationZoomIn.setAnimationListener(new AnimationListener() {
 
             @Override
@@ -132,8 +132,7 @@ public class MainActivity extends Activity {
                 Intent i = new Intent(MainActivity.this, MakeEchoActivity.class);
                 i.putExtra("dataEcho", getDataEcho);
                 startActivity(i);
-                overridePendingTransition(R.animator.right_in,
-                        R.animator.left_out);
+                overridePendingTransition(R.anim.right_in, R.anim.left_out);
             }
         });
         mIBEchoNow.setOnClickListener(new OnClickListener() {
@@ -143,8 +142,7 @@ public class MainActivity extends Activity {
                 Intent i = new Intent(MainActivity.this, EchoNowActivity.class);
                 i.putExtra("dataEcho", getDataEcho);
                 startActivity(i);
-                overridePendingTransition(R.animator.right_in,
-                        R.animator.left_out);
+                overridePendingTransition(R.anim.right_in, R.anim.left_out);
             }
         });
     }

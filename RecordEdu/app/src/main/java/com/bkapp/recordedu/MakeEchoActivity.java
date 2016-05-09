@@ -61,7 +61,7 @@ public class MakeEchoActivity extends Activity {
     }
 
     private final String STORAGE_PATH = "/data/data/";
-    private final String PACKAGE_NAME = "com.tranle.echoedu";
+    private final String PACKAGE_NAME = "com.bkapp.recordedu";
     private final String RECORD_NAME_TEMP = "/recorder.mp3";
     private final String ECHOLIST_FOLDER = "/EchoList/";
     private final String PLAY_LIST = "playlists";
@@ -259,7 +259,7 @@ public class MakeEchoActivity extends Activity {
                     sendData = dataEcho.toString();
                 i.putExtra("dataEcho", sendData);
                 startActivity(i);
-                overridePendingTransition(R.animator.right_in, R.animator.left_out);
+                overridePendingTransition(R.anim.right_in, R.anim.left_out);
                 finish();
             }
         });

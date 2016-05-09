@@ -173,8 +173,7 @@ public class EchoNowActivity extends Activity implements CustomListEcho.OnClickN
                 }
                 i.putExtra("dataEcho", data);
                 startActivity(i);
-                overridePendingTransition(R.animator.right_in,
-                        R.animator.left_out);
+                overridePendingTransition(R.anim.right_in, R.anim.left_out);
                 finish();
             }
         });
